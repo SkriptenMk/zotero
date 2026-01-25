@@ -1,7 +1,7 @@
 ---
 title: "Zotero"
 subtitle: "Einführung für Lehrpersonen"
-#author: "Dein Name"
+author: "Jacques Mock Schindler"
 date: 2026-01-28
 date-format: "DD.MM.YYYY"
 ---

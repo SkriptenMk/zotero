@@ -3,9 +3,14 @@ project:
   output-dir: docs  # GitHub Pages liest standardmäßig aus diesem Ordner
 
 lang: de-CH
+number-sections:  true
 
 format:
   html:
     theme: cosmo
     toc: true
     code-fold: false
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    output-file: zotero_anleitung.pdf
