@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs  # GitHub Pages liest standardmäßig aus diesem Ordner
+
+format:
+  revealjs:
+    theme: simple
+    self-contained: true  # Packt alles (CSS, JS, Bilder) in eine einzige HTML-Datei
+    slide-number: true
+    # Weitere Optionen nach Bedarf
