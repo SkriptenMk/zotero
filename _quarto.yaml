@@ -5,8 +5,7 @@ project:
 lang: de-CH
 
 format:
-  revealjs:
-    theme: simple
-    self-contained: true  # Packt alles (CSS, JS, Bilder) in eine einzige HTML-Datei
-    slide-number: true
-    # Weitere Optionen nach Bedarf
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: false

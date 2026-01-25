@@ -1,16 +1,23 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zotero",
+    "section": "",
+    "text": "Installation von Zotero\nErfassen von Referenzen\nReferenzen in einen Text einfügen\n(Zotero als Wissensdatenbank)"
+  },
+  {
     "objectID": "index.html#programm",
     "href": "index.html#programm",
     "title": "Zotero",
-    "section": "Programm",
-    "text": "Programm\n\nInstallation von Zotero\nErfassen von Referenzen\nReferenzen in einen Text einfügen\n(Zotero als Wissensdatenbank)\n\n\nDiese Notizen sieht nur der Sprecher, wenn er die Taste ‘S’ drückt."
+    "section": "",
+    "text": "Installation von Zotero\nErfassen von Referenzen\nReferenzen in einen Text einfügen\n(Zotero als Wissensdatenbank)"
   },
   {
-    "objectID": "index.html#layouts-mit-spalten",
-    "href": "index.html#layouts-mit-spalten",
+    "objectID": "index.html#installation-von-zotero",
+    "href": "index.html#installation-von-zotero",
     "title": "Zotero",
-    "section": "Layouts mit Spalten",
-    "text": "Layouts mit Spalten\nDu kannst Inhalte ganz einfach nebeneinander anordnen:\n\n\nLinke Seite\nHier steht Text oder eine Liste. * Wichtiges Element A * Wichtiges Element B\n\nRechte Seite\nHier könnte ein Bild oder Code stehen: ```python def hallo(): print(“Hallo Welt!”)"
+    "section": "Installation von Zotero",
+    "text": "Installation von Zotero\n\nAnlegen eines Zotero Accounts\nZotero Website www.zotero.org\nLog In (oben rechts) \\(\\rightarrow\\) Register for a free account\nKBW Adresse verwenden\nHerunterladen und Installieren der Desktop Applikation\nZurück zur\nDownload-Button \\(\\rightarrow\\) Zotero 8 for Windows\nInstallation des Zotero Connectors"
   }
 ]
