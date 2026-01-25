@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#zotero-installieren-und-einrichten" id="toc-zotero-installieren-und-einrichten" class="nav-link active" data-scroll-target="#zotero-installieren-und-einrichten">Zotero installieren und einrichten</a></li>
   <li><a href="#einträge-in-zotero-erstellen-und-organisieren" id="toc-einträge-in-zotero-erstellen-und-organisieren" class="nav-link" data-scroll-target="#einträge-in-zotero-erstellen-und-organisieren">Einträge in Zotero erstellen und organisieren</a></li>
-  <li><a href="#erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow" id="toc-erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow" class="nav-link" data-scroll-target="#erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow">Erstellen einer Bibliographie Datei für den Markdown – Pandoc-Workflow</a></li>
+  <li><a href="#einfügen-von-referenzen-in-texten" id="toc-einfügen-von-referenzen-in-texten" class="nav-link" data-scroll-target="#einfügen-von-referenzen-in-texten">Einfügen von Referenzen in Texten</a></li>
   </ul>
 </nav>
     </div>
@@ -139,15 +139,73 @@ ul.task-list li input[type="checkbox"] {
 <p>Damit Einträge mit dem Zotero Connector erfasst werden können, muss neben dem Browser auch die Zotero Desktop Applikation geöffnet sein. Gearbeitet wird bei geöffneter Zotero Desktop Applikation im Browser.</p>
 <p>Nach der Installation des Zotero Connectors für den verwendeten Browser muss dieser via Plugin Manager (in den meisten Browser ein Icon, das wie ein Puzzle Teil aussieht) an die Menüzeile angepinnt werden. Durch das Anpinnen erscheint in der Menüzeile ein neues Symbol in Form eines grauen Buchstaben ‘Z’.</p>
 <p>Für das Beispiel soll der <a href="https://de.wikipedia.org/wiki/Zotero">Wikipedia Artikel zu Zotero</a> erfasst werden. Dazu muss die <a href="https://de.wikipedia.org/wiki/Zotero">Website</a> geöffnet werden. Wenn die Website offen ist, kann das graue ‘Z’ Symbol angeklickt werden. Beim erstmaligen Anklicken erscheint ein Hinweisfenster. Dieses kann angenommen werden. Anschliessend öffnet sich oben rechts im Browser ein Pop-Up Fenster, das einem Mitteilt, dass die Website nach Zotero gespeichert wird und dass ein Snapshot der Website angelegt wird. Ausserdem hat das Symbol für den Zotero Connector eine neue Darstellung erhalten. Neu sieht es wie ein aufgeschlagenes Buch aus. So zeigt der Zotero Connector an, als welche Kategorie der Eintrag angelegt wird. Im Fall der Wikipedia ist das ein Enzyklopädieartikel. Der Zotero Connector erkennt mehr oder weniger zuverlässig, um was für einen Eintrag es sich handelt. Der Eintrag muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und korrigiert werden.</p>
-<p>Ebenfalls über den Zotero Connector können bibliographische Angaben aus Bibliothekskatalogen übernommen werden. Als Beispiel dient hier ein Eintrag im swisscovery Katalog zu <a href="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991171274013205501&amp;context=L&amp;vid=41SLSP_NETWORK:VU1_UNION&amp;lang=de&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;isFrbr=true&amp;tab=41SLSP_NETWORK&amp;query=any,contains,le%20rouge%20et%20le%20noir&amp;sortby=date_d&amp;facet=frbrgroupid,include,9034117119244122733&amp;offset=0">Le rouge et le noir</a>. Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero Connector die Form eines Buches an.</p></li>
+<p>Ebenfalls über den Zotero Connector können bibliographische Angaben aus Bibliothekskatalogen übernommen werden. Als Beispiel dient hier ein Eintrag im swisscovery Katalog zu <a href="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991171274013205501&amp;context=L&amp;vid=41SLSP_NETWORK:VU1_UNION&amp;lang=de&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;isFrbr=true&amp;tab=41SLSP_NETWORK&amp;query=any,contains,le%20rouge%20et%20le%20noir&amp;sortby=date_d&amp;facet=frbrgroupid,include,9034117119244122733&amp;offset=0">Le rouge et le noir</a>. Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero Connector die Form eines Buches an. Dieser Eintrag wird als Buch angelegt, allerdings ohne Snapshot. Der Zotero Connector erkennt korrekt, dass die Website von swisscovery ausschliesslich die Metadaten zum Buch zur Verfügung stellt.</p>
+<p>Andere Websites funktionieren analog zu diesen beiden Beispielen.</p></li>
+<li><p>Eintrag mittels eines Identifikators erfassen.</p>
+<p>In der Zotero Desktop Applikation können Einträge mittels der ISBN, DOI und ähnlicher Identifikatoren erfasst werden. Dazu ist das Zauberstab Icon über der Liste mit den Einträgen anzuklicken. Im sich öffnenden Fenster kann die ISBN eingegeben werden. Zotero sucht mit der ISBN online nach Einträgen mit der entsprechenden ISBN in Bibliothekskatalogen.<br>
+Als Beispiel dient hier die ISBN 9783110466201, Ovid, Niklas Holzberg (Hrsg.), Metamorphosen lateinisch-deutsch. Sammlung Tusculum. De Gruyter, 2017.</p>
+<p>Auch die via ISBN erfassten Einträge müssen unbedingt auf Vollständigkeit und Korrektheit kontrolliert werden.</p></li>
+<li><p>Manueller Eintrag.</p>
+<p>Es besteht auch die Möglichkeit, Einträge komplett manuell zu erfassen. Dazu ist das Icon links neben dem Zauberstab (leeres Blatt mit kleinem Plus Symbol) zu verwenden. Wenn dieses Icon angeklickt wird, öffnet sich ein Auswahlmenü mit allen Eintragsarten, welche von Zotero zur Verfügung gestellt werden. Sobald eine Wahl getroffen worden ist, wird ein leerer Eintrag in der gewählten Kategorie angelegt. Die entsprechenden Metadaten können nun von Hand eingegeben werden.</p></li>
 </ul>
-<p>Wie Einträge in Zotero erfasst werden, wird auf der Website von Zotero ausführlich beschrieben. An dieser Stelle darf daher auf die dortigen <a href="https://www.zotero.org/support/adding_items_to_zotero">Erklärungen</a> verwiesen werden. Das gleiche gilt für die <a href="https://www.zotero.org/support/collections_and_tags">Organisation</a> der eigenen Bibliothek.</p>
-<p>Damit die Einträge aus Zotero in den Texten gelesen werden können, müssen sie mit dem Zitierschlüssel (citation key) adressiert werden. Die genaue Syntax dazu wird in <strong>?@sec-referenzen_einf</strong> erklärt. Zotero erstellt für jeden Eintrag einen Standardschlüssel. Dieser ist jedoch oft schwer zu merken. Es empfiehlt sich daher, den Zitierschlüssel selber festzulegen. Dazu ist im Feld “Extra” der Metadaten des Eintrags das “Key – Value” Paar “citation key: eigener_schlüssel” einzutragen. Gespeichert wird der so festgelegte Zitierschlüssel in dem das Feld “Extra” wieder verlassen wird. Der einfachste Zitierschlüssel ist wohl <code>autorYYYY</code> wobei <code>YYYY</code> für die vierstellige Jahreszahl steht.</p>
+<p>Eine ausführliche Anleitung, wie Einträge in Zotero erfasst werden, wird auf der <a href="https://www.zotero.org/support/adding_items_to_zotero">Website von Zotero</a> zur Verfügung gestellt.</p>
+<p>Zotero stellt zwei Möglichkeiten zur Verfügung, die Bibliothek zu organisieren. Die Einträge können in Sammlungen organisiert werden oder mit Tags versehen werden. Beide Möglichkeiten können parallel verwendet werden.</p>
+<p>Zotero Sammlungen werden mit einem ähnlichen Icon dargestellt wie Windows Ordner. Dies darf aber nicht über einen grundsätzlichen Unterschied hinwegtäuschen. Während Dateien in Windows Ordnern ausschliesslich in einem Ordner gespeichert sind, stellen Zotero Sammlungen keine Speicherorte dar. Das heisst, Zotero Einträge können in mehreren Sammlungen gleichzeitig zusammengefasst werden.</p>
+<p>Neue Sammlungen oder Untersammlungen werden durch einen Rechtsklick auf ‘Meine Sammlung’ oder eine bereits bestehende Sammlung angelegt. Im sich öffnenden Kontextmenü kann dann der Eintrag ‘Neue Sammlung’ bzw. ‘Neue Untersammlung’ ausgewählt werden.</p>
+<p>Um einen Eintrag mit einem Tag zu versehen, muss dieser in der Bibliothek ausgewählt werden. Ganz am rechten Rand erscheint dann eine Auswahl mit mehreren farbigen Icons. Um ein Tag zu vergeben, ist das Icon, welches wie eine Gepäcketikette aussieht auszuwählen.</p>
+<p>Eine ausführliche Beschreibung für die <a href="https://www.zotero.org/support/collections_and_tags">Organisation</a> einer Zotero Bibliothek findet sich ebenfalls auf der Website von Zotero.</p>
 </section>
-<section id="erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow">Erstellen einer Bibliographie Datei für den Markdown – Pandoc-Workflow</h2>
-<p>Die für das jeweilige Projekt erforderlichen Einträge in Zotero werden sinnvollerweise in einer Sammlung zusammengefasst. Diese Sammlung kann dann in eine <code>.bib</code> Datei exportiert werden. Dazu ist das Kontextmenü der Sammlung mit Rechtsklick zu öffnen. Anschliessend ist der Menüpunkt ‘Sammlung Exportieren’ auszuwählen. In der sich öffnenden Dialogbox ist Better BibLaTeX als Format auszuwählen. Sinnvollerweise werden die beiden Optionen ‘Halte aktuell’ und ‘Hintergrund-Export’ ausgewählt. Die erste Option sorgt dafür, dass Änderungen in Zotero-Einträgen automatisch in die <code>.bib</code> Datei geschrieben werden, die zweite verhindert, dass der Export einfriert.<br>
-Standardmässig erhält die so erstellte <code>.bib</code> Datei den Namen der Sammlung. Der Name kann während des Erstellens noch angepasst werden. Falls der Name nachträglich angepasst wird, ist nicht sichergestellt, dass die automatische Aktualisierung weiterhin funktioniert. Falls man dem Automatismus nicht vertraut, kann die <code>.bib</code> Datei nach jeder Änderung manuell neu aus Zotero exportiert werden.</p>
+<section id="einfügen-von-referenzen-in-texten" class="level2">
+<h2 class="anchored" data-anchor-id="einfügen-von-referenzen-in-texten">Einfügen von Referenzen in Texten</h2>
+<p>In dieser Anleitung wird beschrieben, wie Referenzen in ein Word Dokument eingefügt werden.</p>
+<p>Mit der Installation der Zotero Desktop Applikation solle parallel das Microsoft Word Add-In installiert worden sein. Dieses stellt in Microsoft Word einen neuen Menüeintrag ‘Zotero’ zur Verfügung. Falls dieser Menüpunkt in Word fehlt, kann das Microsoft Word Add-In manuell installiert werden. Dazu sind die Zotero Einstellungen zu öffnen (Bearbeiten -&gt; Einstellungen). Im Einstellungsfenster ist der Tab ‘Zitieren’ auszuwählen. Ganz unten in diesem Tab findet sich ein Button ‘Microsoft Word Add-In installieren’. Durch anklicken dieses Buttons wird das fehlende Add-In installiert. Allenfalls muss Word neu gestartet werden.</p>
+<p>Das Zotero Word Add-In stellt in Word die folgenden Funktionen zur Verfüugng:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="word_add-in.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero Word Add-In.</figcaption>
+</figure>
+</div>
+<p>Die einzelnen Funktionen werden hier der Reihe nach erklärt.</p>
+<ul>
+<li><p>Add/Edit Citation.</p>
+<p>Mit dieser Funktion wird eine Referenz im Text eingefügt. Bei der ersten Referenz in einem neuen Text muss vor dem Einfügen der Referenz zusätzlich noch der Zitierstil ausgewählt werden.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="zitierstil.png" class="img-fluid figure-img"></p>
+<figcaption>Dialog zur Wahl des Zitierstils</figcaption>
+</figure>
+</div>
+<p>Hier im Beispiel wird der Stil ‘Chicago Manual of Style 18th edition (shortend notes and bibliography)’ ausgewählt. Die Wahl des Stils ist an dieser Stelle allerdings nicht entscheidend, der Stil kann auch zu einem späteren Zeitpunkt noch geändert werden. Durch die Bestätigung des gewählten Zitierstils gelangt man zur Auswahl der zu zitierenden Referenz.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="auswahldialog.png" class="img-fluid figure-img"></p>
+<figcaption>Dialog zur Auswahl der Referenz in der Darstellung ‘Liste’.</figcaption>
+</figure>
+</div>
+<p>In dieser Dialogbox kann neben dem roten ‘Z’ nach einer Referenz in der Zotero Bibliothek gesucht werden. Gesucht werden kann nach Text in allen Feldern der Metadaten.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="mueller_suche.png" class="img-fluid figure-img"></p>
+<figcaption>Suche nach Referenzen, die den Namen Müller enthalten.</figcaption>
+</figure>
+</div>
+<p>Durch Anklicken des gewünschten Eintrags wird dieser in form einer ovalen Textblase in die Suchzeile übernommen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="mueller_ausgewaehlt.png" class="img-fluid figure-img"></p>
+<figcaption>Der gesuchte Eintrag Müller wurde in die Suchzeile übernommen.</figcaption>
+</figure>
+</div>
+<p>Durch das Anklicken der Textblase kann die Referenz präzisiert werden.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="praezisierung.png" class="img-fluid figure-img"></p>
+<figcaption>Dialogbox zur Präzisierung einer Referenz. Anstelle von Seitenzahlen können auch Abschnitte, Randnoten und ähnliches ausgewählt werden.</figcaption>
+</figure>
+</div>
+<p>Die Details können durch das Drücken der Entertaste bestätigt werden. Dadurch wird der gewählte Eintrag aus Zotero als Referenz in der gewählten Darstellungsform in den Text übernommen.</p></li>
+</ul>
 
 
 </section>
