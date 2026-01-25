@@ -1,15 +1,15 @@
 ---
 title: "Zotero"
 subtitle: "Einführung für Lehrpersonen"
-author: "Dein Name"
+#author: "Dein Name"
 date: 2026-01-28
 date-format: "DD.MM.YYYY"
 format:
   revealjs:
-    theme: [default, custom.scss] # 'custom.scss' nur falls du eigenes Design willst
+    theme: [default] # 'custom.scss' nur falls du eigenes Design willst
     #logo: images/logo.png        # Optional: Dein Logo auf jeder Slide
     #footer: "Konferenz 2024 - Name der Präsentation"
-    chalkboard: true             # Aktiviert das Whiteboard-Tool
+    #chalkboard: true             # Aktiviert das Whiteboard-Tool
     incremental: true            # Listen erscheinen Punkt für Punkt
 ---
 
