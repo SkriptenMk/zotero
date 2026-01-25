@@ -129,7 +129,9 @@ Windows Ordner. Dies darf aber nicht über einen grundsätzlichen
 Unterschied hinwegtäuschen. Während Dateien in Windows Ordnern
 ausschliesslich in einem Ordner gespeichert sind, stellen Zotero
 Sammlungen keine Speicherorte dar. Das heisst, Zotero Einträge können in
-mehreren Sammlungen gleichzeitig zusammengefasst werden.
+mehreren Sammlungen gleichzeitig zusammengefasst werden. Dies ermöglicht
+es Beispielsweise, ein Eintrag gleichzeitig einer Sammlung 'Barock' und
+'Lyrik' zuzuweisen.
 
 Neue Sammlungen oder Untersammlungen werden durch einen Rechtsklick auf
 'Meine Sammlung' oder eine bereits bestehende Sammlung angelegt. Im sich
@@ -227,8 +229,9 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
 
 * 'Insert Note'.
   
-  In Zotero können Notizen angelegt werden (vgl. XXX). Mit 'Insert Note'
-  kann nach Notizen gesucht und diese in den Text eingefügt werden.
+  In Zotero können Notizen angelegt werden (vgl. @sec-notizen). Mit
+  'Insert Note' kann nach Notizen gesucht und diese in den Text
+  eingefügt werden. 
 
 * 'Document Preferences'
   
@@ -252,7 +255,7 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
   Datenbank unterbrochen werden. Aktualisierungen von Einträgen in
   Zotero werden dann nicht mehr in den Text übernommen.
 
-## Zotero als Wissensdatenbank
+## Zotero als Wissensdatenbank {#sec-notizen}
 
 Zotero kann auch als E-Reader verwendet werden. Damit löst Zotero das
 Versprechen ein, ein persönlicher Forschungsassistent zu sein. Welche
