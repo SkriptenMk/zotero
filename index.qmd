@@ -220,7 +220,39 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
    Es können bei der Auswahl auch mehrere Referenzen gleichzeitig
    ausgewählt werden.
 
-* 
+* 'Add/Edit Bibliography'.
+  
+  Durch Klicken dieses Buttons wird an der Stelle, an der sich der
+  Cursor im Word Dokument befindet, ein Literaturverzeichnis eingefügt.
+
+* 'Insert Note'.
+  
+  In Zotero können Notizen angelegt werden (vgl. XXX). Mit 'Insert Note'
+  kann nach Notizen gesucht und diese in den Text eingefügt werden.
+
+* 'Document Preferences'
+  
+  Hier können im Nachhinein andere Zitierstile ausgewählt werden.
+
+* 'Refresh'
+  
+  Grundsätzlich werden Änderungen von Einträgen in Zotero im Dokument
+  automatisch angepasst. Die 'Refresh' Funktion erzwingt in jedem Fall,
+  dass die Einträge aus Zotero neu geladen werden. Es handelt sich also
+  um eine Art Abkürzung oder vielleicht auch eine Vergewisserung, dass
+  die Einträge aktualisiert werden.
+
+  Weil Änderungen in Zotero Einträgen grundsätzlich automatisch ins
+  Dokument übernommen werden, sollen Referenzen nicht im Dokument selber
+  angepasst werden.
+
+* 'Unlink Citations'
+  
+  Mit dieser Funktion kann die Verbindung zwischen Dokument und Zotero
+  Datenbank unterbrochen werden. Aktualisierungen von Einträgen in
+  Zotero werden dann nicht mehr in den Text übernommen.
+
+
 
 
 
