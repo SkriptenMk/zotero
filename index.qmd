@@ -1,0 +1,48 @@
+---
+title: "Zotero"
+subtitle: "Einführung für Lehrpersonen"
+author: "Dein Name"
+date: last-modified
+date-format: "DD.MM.YYYY"
+format:
+  revealjs:
+    theme: [default, custom.scss] # 'custom.scss' nur falls du eigenes Design willst
+    logo: images/logo.png        # Optional: Dein Logo auf jeder Slide
+    footer: "Konferenz 2024 - Name der Präsentation"
+    chalkboard: true             # Aktiviert das Whiteboard-Tool
+    incremental: true            # Listen erscheinen Punkt für Punkt
+---
+
+## Willkommen
+
+Dies ist deine erste Slide. Dank `self-contained: true` in der `_quarto.yml` wird diese Präsentation als einzelne HTML-Datei exportiert.
+
+* Punkt 1 (erscheint zuerst)
+* Punkt 2 (erscheint danach)
+* Punkt 3
+
+::: {.notes}
+Diese Notizen sieht nur der Sprecher, wenn er die Taste 'S' drückt.
+:::
+
+---
+
+## Layouts mit Spalten
+
+Du kannst Inhalte ganz einfach nebeneinander anordnen:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Linke Seite
+Hier steht Text oder eine Liste.
+* Wichtiges Element A
+* Wichtiges Element B
+:::
+
+::: {.column width="50%"}
+### Rechte Seite
+Hier könnte ein Bild oder Code stehen:
+```python
+def hallo():
+    print("Hallo Welt!")
