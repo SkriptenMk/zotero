@@ -7,12 +7,12 @@ date-format: "DD.MM.YYYY"
 ---
 
 Zotero bewirbt sich selber als persönlicher Forschungsassistent. Im
-gymnasialen Umfeld ist Zotero in erster Linie ein Hilfsmittel Zitate in
+gymnasialen Umfeld ist Zotero in erster Linie ein Hilfsmittel, Zitate in
 Texten korrekt zu formatieren. Darüber hinaus kann Zotero auch als
 E-Reader mit Zusatzfunktionen zur Verwaltung von Notizen verwendet
 werden. 
 
-Diese Anleitung zeigt Schritt für Schritt wie
+Diese Anleitung zeigt für Zotero 8 Schritt für Schritt, wie
 
 * Zotero installiert wird;
 * Einträge in die Zotero Bibliothek gemacht werden können;
@@ -22,7 +22,7 @@ Diese Anleitung zeigt Schritt für Schritt wie
 ## Zotero installieren und einrichten
 
 Um die Funktionen von Zotero im vollen Umfang zu nutzen, ist es sinnvoll
-ein Zotero Account zu erstellen. Der Account kann auf der Website von
+ein Zotero-Account zu erstellen. Der Account kann auf der Website von
 [Zotero](https://www.zotero.org/user/register) erstellt werden. Wenn der
 Account nicht ausschliesslich privat genutzt werden soll, ist es
 sinnvoll die Schul- bzw.\ Geschäftsemail zu verwenden. Im Nutzerprofil
@@ -32,14 +32,15 @@ eigene Datenbank zu behalten, wenn man eine Institution verlässt.
 Nachdem optional ein persönlicher Account erstellt worden ist, kann der
 [Zotero Desktop Client](https://www.zotero.org/download/)
 heruntergeladen und installiert werden. Auf der gleichen Seite findet
-sich auch die Möglichkeit den Zotero Connector als Browser Plugin
+sich auch die Möglichkeit den Zotero-Connector als Browser Plugin
 herunterzuladen. Dieses Plugin ist für die Arbeit mit Zotero nicht
 zwingend erforderlich, vereinfacht aber die Erfassung von Quellen
 ungemein.
 
-Wenn Zotero installiert ist, kann es über den Menüpunkt Bearbeiten >
-Einstellungen, Registerkarte Sync mit dem eigenen Zotero Account
-verbunden werden.
+Wenn Zotero installiert ist, kann auf Windows Rechnern über den Menüpunkt Bearbeiten >
+Einstellungen, Registerkarte Sync die Synchronisation mit dem eigenen Zotero-Account
+eingerichtet werden. Auf Mac Rechnern finden sich die Einstellungen
+unter dem Menü Zotero > Einstellungen.
 
 ## Einträge in Zotero erstellen und organisieren
 
@@ -47,15 +48,15 @@ Es gibt verschiedene Methoden, wie Einträge in die Zotero Bibliothek
 aufgenommen werden können. Hier werden die gängigen Methoden Schritt für
 Schritt mit Beispielen erklärt.
 
-* Eintrag mit dem Zotero Connector erfassen.
+* Eintrag mit dem Zotero-Connector erfassen.
   
-  Damit Einträge mit dem Zotero Connector erfasst werden können, muss
-  neben dem Browser auch die Zotero Desktop Applikation geöffnet sein.
-  Gearbeitet wird bei geöffneter Zotero Desktop Applikation im Browser.
+  Damit Einträge mit dem Zotero-Connector erfasst werden können, muss
+  neben dem Browser auch die Zotero-Desktop-Applikation geöffnet sein.
+  Gearbeitet wird bei geöffneter Zotero-Desktop-Applikation im Browser.
 
-  Nach der Installation des Zotero Connectors für den verwendeten
+  Nach der Installation des Zotero-Connectors für den verwendeten
   Browser muss dieser via Plugin Manager (in den meisten Browser ein
-  Icon, das wie ein Puzzle Teil aussieht) an die Menüzeile angepinnt
+  Icon, das wie ein Puzzle Teil aussieht ![](image.png){height="1em"}) an die Menüzeile angepinnt
   werden. Durch das Anpinnen erscheint in der Menüzeile ein neues Symbol
   in Form eines grauen Buchstaben 'Z'.
 
@@ -65,25 +66,25 @@ Schritt mit Beispielen erklärt.
   werden. Wenn die Website offen ist, kann das graue 'Z' Symbol
   angeklickt werden. Beim erstmaligen Anklicken erscheint ein
   Hinweisfenster. Dieses kann angenommen werden. Anschliessend öffnet
-  sich oben rechts im Browser ein Pop-Up Fenster, das einem Mitteilt,
+  sich oben rechts im Browser ein Pop-Up Fenster, das einem mitteilt,
   dass die Website nach Zotero gespeichert wird und dass ein Snapshot
   der Website angelegt wird. Ausserdem hat das Symbol für den Zotero
   Connector eine neue Darstellung erhalten. Neu sieht es wie ein
-  aufgeschlagenes Buch aus. So zeigt der Zotero Connector an, als welche
+  aufgeschlagenes Buch aus. So zeigt der Zotero-Connector an, als welche
   Kategorie der Eintrag angelegt wird. Im Fall der Wikipedia ist das ein
-  Enzyklopädieartikel. Der Zotero Connector erkennt mehr oder weniger
+  Enzyklopädieartikel. Der Zotero-Connector erkennt mehr oder weniger
   zuverlässig, um was für einen Eintrag es sich handelt. Der Eintrag
   muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und
   korrigiert werden.
 
-  Ebenfalls über den Zotero Connector können bibliographische Angaben
+  Ebenfalls über den Zotero-Connector können bibliographische Angaben
   aus Bibliothekskatalogen übernommen werden. Als Beispiel dient hier ein
   Eintrag im swisscovery Katalog zu 
   [Le rouge et le
   noir](https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991171274013205501&context=L&vid=41SLSP_NETWORK:VU1_UNION&lang=de&search_scope=DN_and_CI&adaptor=Local%20Search%20Engine&isFrbr=true&tab=41SLSP_NETWORK&query=any,contains,le%20rouge%20et%20le%20noir&sortby=date_d&facet=frbrgroupid,include,9034117119244122733&offset=0).
-  Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero Connector die
+  Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero-Connector die
   Form eines Buches an. Dieser Eintrag wird als Buch angelegt,
-  allerdings ohne Snapshot. Der Zotero Connector erkennt korrekt, dass
+  allerdings ohne Snapshot. Der Zotero-Connector erkennt korrekt, dass
   die Website von swisscovery ausschliesslich die Metadaten zum Buch zur
   Verfügung stellt.
 
@@ -91,7 +92,7 @@ Schritt mit Beispielen erklärt.
 
 * Eintrag mittels eines Identifikators erfassen.
   
-  In der Zotero Desktop Applikation können Einträge mittels der ISBN,
+  In der Zotero-Desktop-Applikation können Einträge mittels der ISBN,
   DOI und ähnlicher Identifikatoren erfasst werden. Dazu ist das
   Zauberstab Icon über der Liste mit den Einträgen anzuklicken. Im sich
   öffnenden Fenster kann die ISBN eingegeben werden. Zotero sucht mit
@@ -130,7 +131,7 @@ Unterschied hinwegtäuschen. Während Dateien in Windows Ordnern
 ausschliesslich in einem Ordner gespeichert sind, stellen Zotero
 Sammlungen keine Speicherorte dar. Das heisst, Zotero Einträge können in
 mehreren Sammlungen gleichzeitig zusammengefasst werden. Dies ermöglicht
-es Beispielsweise, ein Eintrag gleichzeitig einer Sammlung 'Barock' und
+es beispielsweise, einen Eintrag gleichzeitig einer Sammlung 'Barock' und
 'Lyrik' zuzuweisen.
 
 Neue Sammlungen oder Untersammlungen werden durch einen Rechtsklick auf
@@ -141,7 +142,7 @@ Untersammlung' ausgewählt werden.
 Um einen Eintrag mit einem Tag zu versehen, muss dieser in der
 Bibliothek ausgewählt werden. Ganz am rechten Rand erscheint dann eine
 Auswahl mit mehreren farbigen Icons. Um ein Tag zu vergeben, ist das
-Icon, welches wie eine Gepäcketikette aussieht auszuwählen.
+Icon, welches wie eine Gepäcketikette aussieht, auszuwählen.
 
 Eine ausführliche Beschreibung für die 
 [Organisation](https://www.zotero.org/support/collections_and_tags)
@@ -153,7 +154,7 @@ Zotero.
 In dieser Anleitung wird beschrieben, wie Referenzen in ein Word
 Dokument eingefügt werden.
 
-Mit der Installation der Zotero Desktop Applikation solle parallel das
+Mit der Installation der Zotero-Desktop-Applikation sollte parallel das
 Microsoft Word Add-In installiert worden sein. Dieses stellt in
 Microsoft Word einen neuen Menüeintrag 'Zotero' zur Verfügung. Falls
 dieser Menüpunkt in Word fehlt, kann das Microsoft Word Add-In manuell
@@ -165,7 +166,7 @@ wird das fehlende Add-In installiert. Allenfalls muss Word neu gestartet
 werden. 
 
 Das Zotero Word Add-In stellt in Word die folgenden Funktionen zur
-Verfüugng: 
+Verfügung: 
 
 ![Zotero Word Add-In.](word_add-in.png)
 
@@ -180,7 +181,7 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
   ![Dialog zur Wahl des Zitierstils](zitierstil.png)
 
   Hier im Beispiel wird der Stil 'Chicago Manual of Style 18th edition
-  (shortend notes and bibliography)' ausgewählt. Die Wahl des Stils ist
+  (shortened notes and bibliography)' ausgewählt. Die Wahl des Stils ist
   an dieser Stelle allerdings nicht entscheidend, der Stil kann auch zu
   einem späteren Zeitpunkt noch geändert werden. Durch die Bestätigung
   des gewählten Zitierstils gelangt man zur Auswahl der zu zitierenden
@@ -196,7 +197,7 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
   ![Suche nach Referenzen, die den Namen Müller
    enthalten.](mueller_suche.png)
 
-   Durch Anklicken des gewünschten Eintrags wird dieser in form einer
+   Durch Anklicken des gewünschten Eintrags wird dieser in Form einer
    ovalen Textblase in die Suchzeile übernommen.
 
    ![Der gesuchte Eintrag Müller wurde in die Suchzeile
@@ -261,9 +262,9 @@ Zotero kann auch als E-Reader verwendet werden. Damit löst Zotero das
 Versprechen ein, ein persönlicher Forschungsassistent zu sein. Welche
 Unterstützung Zotero damit bietet, wird hier erläutert.
 
-Beim erfassen von Websites mit Hilfe des Zotero Connectors wurden, wie
+Beim Erfassen von Websites mit Hilfe des Zotero-Connectors wurden, wie
 im Beispiel gezeigt, nicht nur die Metadaten erfasst, sondern auch ein
-Snap Shot der Website gespeichert. Der Inhalt der Referenz kann nicht
+Snapshot der Website gespeichert. Der Inhalt der Referenz kann nicht
 nur für Websites, sondern grundsätzlich für alle Eintragsarten
 gespeichert werden.
 
@@ -277,7 +278,7 @@ im Text vorzunehmen und diese mit Kommentaren zu versehen.
 Die Anstreichungen und Kommentare werden dann als separate Notizen
 gespeichert. 
 Ausserdem können auch eigenständige Notizen angelegt werden. Dazu kann
-am Rechten Rand der Zotero Desktop Applikation die Metadaten des
+am Rechten Rand der Zotero-Desktop-Applikation die Metadaten des
 Eintrags angezeigt werden.
 
 ![Die Auswahl der Metadaten zum Eintrag. Hier in der eingefalteten
