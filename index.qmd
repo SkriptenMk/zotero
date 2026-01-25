@@ -119,38 +119,29 @@ auf der [Website von
 Zotero](https://www.zotero.org/support/adding_items_to_zotero) zur
 Verfügung gestellt. 
 
+Zotero stellt zwei Möglichkeiten zur Verfügung, die Bibliothek zu
+organisieren. Die Einträge können in Sammlungen organisiert werden oder
+mit Tags versehen werden. Beide Möglichkeiten können parallel verwendet
+werden.
 
+Zotero Sammlungen werden mit einem ähnlichen Icon dargestellt wie
+Windows Ordner. Dies darf aber nicht über einen grundsätzlichen
+Unterschied hinwegtäuschen. Während Dateien in Windows Ordnern
+ausschliesslich in einem Ordner gespeichert sind, stellen Zotero
+Sammlungen keine Speicherorte dar. Das heisst, Zotero Einträge können in
+mehreren Sammlungen gleichzeitig zusammengefasst werden.
 
- Das gleiche gilt für die
-[Organisation](https://www.zotero.org/support/collections_and_tags) der
-eigenen Bibliothek. 
+Neue Sammlungen oder Untersammlungen werden durch einen Rechtsklick auf
+'Meine Sammlung' oder eine bereits bestehende Sammlung angelegt. Im sich
+öffnenden Kontextmenü kann dann der Eintrag 'Neue Sammlung' bzw. 'Neue
+Untersammlung' ausgewählt werden.
 
-Damit die Einträge aus Zotero in den Texten gelesen werden können,
-müssen sie mit dem Zitierschlüssel (citation key) adressiert werden. Die
-genaue Syntax dazu wird in @sec-referenzen_einf erklärt. Zotero erstellt
-für jeden Eintrag einen Standardschlüssel. Dieser ist jedoch oft schwer
-zu merken. Es empfiehlt sich daher, den Zitierschlüssel selber
-festzulegen. Dazu ist im Feld "Extra" der Metadaten des Eintrags das
-"Key -- Value" Paar "citation key: eigener_schlüssel" einzutragen.
-Gespeichert wird der so festgelegte Zitierschlüssel in dem das Feld
-"Extra" wieder verlassen wird. Der einfachste Zitierschlüssel ist wohl
-`autorYYYY` wobei `YYYY` für die vierstellige Jahreszahl steht.
+Um einen Eintrag mit einem Tag zu versehen, muss dieser in der
+Bibliothek ausgewählt werden. Ganz am rechten Rand erscheint dann eine
+Auswahl mit mehreren farbigen Icons. Um ein Tag zu vergeben, ist das
+Icon, welches wie eine Gepäcketikette aussieht auszuwählen.
 
-## Erstellen einer Bibliographie Datei für den Markdown -- Pandoc-Workflow
-
-Die für das jeweilige Projekt erforderlichen Einträge in Zotero werden
-sinnvollerweise in einer Sammlung zusammengefasst. Diese Sammlung kann dann
-in eine `.bib` Datei exportiert werden. Dazu ist das Kontextmenü der
-Sammlung mit Rechtsklick zu öffnen. Anschliessend ist der Menüpunkt
-'Sammlung Exportieren' auszuwählen. In der sich öffnenden Dialogbox ist
-Better BibLaTeX als Format auszuwählen. Sinnvollerweise werden die beiden
-Optionen 'Halte aktuell' und 'Hintergrund-Export' ausgewählt. Die erste
-Option sorgt dafür, dass Änderungen in Zotero-Einträgen automatisch in die
-`.bib` Datei geschrieben werden, die zweite verhindert, dass der Export
-einfriert.  
-Standardmässig erhält die so erstellte `.bib` Datei den Namen der
-Sammlung. Der Name kann während des Erstellens noch angepasst werden.
-Falls der Name nachträglich angepasst wird, ist nicht sichergestellt,
-dass die automatische Aktualisierung weiterhin funktioniert. Falls man dem
-Automatismus nicht vertraut, kann die `.bib` Datei nach jeder Änderung
-manuell neu aus Zotero exportiert werden.
+Eine ausführliche Beschreibung für die 
+[Organisation](https://www.zotero.org/support/collections_and_tags)
+einer Zotero Bibliothek findet sich ebenfalls auf der Website von
+Zotero. 
