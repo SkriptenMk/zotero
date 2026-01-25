@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -111,8 +82,9 @@ window.Quarto = {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#programm" id="toc-programm" class="nav-link active" data-scroll-target="#programm">Programm</a></li>
-  <li><a href="#installation-von-zotero" id="toc-installation-von-zotero" class="nav-link" data-scroll-target="#installation-von-zotero">Installation von Zotero</a></li>
+  <li><a href="#zotero-installieren-und-einrichten" id="toc-zotero-installieren-und-einrichten" class="nav-link active" data-scroll-target="#zotero-installieren-und-einrichten">Zotero installieren und einrichten</a></li>
+  <li><a href="#einträge-in-zotero-erstellen-und-organisieren" id="toc-einträge-in-zotero-erstellen-und-organisieren" class="nav-link" data-scroll-target="#einträge-in-zotero-erstellen-und-organisieren">Einträge in Zotero erstellen und organisieren</a></li>
+  <li><a href="#erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow" id="toc-erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow" class="nav-link" data-scroll-target="#erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow">Erstellen einer Bibliographie Datei für den Markdown – Pandoc-Workflow</a></li>
   </ul>
 </nav>
     </div>
@@ -145,29 +117,37 @@ window.Quarto = {
 </header>
 
 
-<section id="programm" class="level2">
-<h2 class="anchored" data-anchor-id="programm">Programm</h2>
-<div class="nonincremental">
+<p>Zotero bewirbt sich selber als persönlicher Forschungsassistent. Im gymnasialen Umfeld ist Zotero in erster Linie ein Hilfsmittel Zitate in Texten korrekt zu formatieren. Darüber hinaus kann Zotero auch als E-Reader mit Zusatzfunktionen zur Verwaltung von Notizen verwendet werden.</p>
+<p>Diese Anleitung zeigt Schritt für Schritt wie</p>
 <ul>
-<li>Installation von Zotero</li>
-<li>Erfassen von Referenzen</li>
-<li>Referenzen in einen Text einfügen</li>
-<li>(Zotero als Wissensdatenbank)</li>
+<li>Zotero installiert wird;</li>
+<li>Einträge in die Zotero Bibliothek gemacht werden können;</li>
+<li>Referenzen in einen Text aufgenommen werden, sowie</li>
+<li>Zotero als Wissensdatenbank verwendet werden kann.</li>
 </ul>
-</div>
+<section id="zotero-installieren-und-einrichten" class="level2">
+<h2 class="anchored" data-anchor-id="zotero-installieren-und-einrichten">Zotero installieren und einrichten</h2>
+<p>Um die Funktionen von Zotero im vollen Umfang zu nutzen, ist es sinnvoll ein Zotero Account zu erstellen. Der Account kann auf der Website von <a href="https://www.zotero.org/user/register">Zotero</a> erstellt werden. Wenn der Account nicht ausschliesslich privat genutzt werden soll, ist es sinnvoll die Schul- bzw.&nbsp;Geschäftsemail zu verwenden. Im Nutzerprofil können auch mehrere Adressen hinterlegt werden. Das ermöglicht es, die eigene Datenbank zu behalten, wenn man eine Institution verlässt.</p>
+<p>Nachdem optional ein persönlicher Account erstellt worden ist, kann der <a href="https://www.zotero.org/download/">Zotero Desktop Client</a> heruntergeladen und installiert werden. Auf der gleichen Seite findet sich auch die Möglichkeit den Zotero Connector als Browser Plugin herunterzuladen. Dieses Plugin ist für die Arbeit mit Zotero nicht zwingend erforderlich, vereinfacht aber die Erfassung von Quellen ungemein.</p>
+<p>Wenn Zotero installiert ist, kann es über den Menüpunkt Bearbeiten &gt; Einstellungen, Registerkarte Sync mit dem eigenen Zotero Account verbunden werden.</p>
 </section>
-<section id="installation-von-zotero" class="level2">
-<h2 class="anchored" data-anchor-id="installation-von-zotero">Installation von Zotero</h2>
+<section id="einträge-in-zotero-erstellen-und-organisieren" class="level2">
+<h2 class="anchored" data-anchor-id="einträge-in-zotero-erstellen-und-organisieren">Einträge in Zotero erstellen und organisieren</h2>
+<p>Es gibt verschiedene Methoden, wie Einträge in die Zotero Bibliothek aufgenommen werden können. Hier werden die gängigen Methoden Schritt für Schritt mit Beispielen erklärt.</p>
 <ul>
-<li><p>Anlegen eines Zotero Accounts</p>
-<p>Zotero Website <a href="https://www.zotero.org">www.zotero.org</a><br>
-<a href="https://www.zotero.org/user/login/">Log In</a> (oben rechts) <span class="math inline">\(\rightarrow\)</span> <a href="https://www.zotero.org/user/register">Register for a free account</a><br>
-KBW Adresse verwenden</p></li>
-<li><p>Herunterladen und Installieren der Desktop Applikation</p>
-<p>Zurück zur</p>
-<p>Download-Button <span class="math inline">\(\rightarrow\)</span> Zotero 8 for Windows</p></li>
-<li><p>Installation des Zotero Connectors</p></li>
+<li><p>Eintrag mit dem Zotero Connector erfassen.</p>
+<p>Damit Einträge mit dem Zotero Connector erfasst werden können, muss neben dem Browser auch die Zotero Desktop Applikation geöffnet sein. Gearbeitet wird bei geöffneter Zotero Desktop Applikation im Browser.</p>
+<p>Nach der Installation des Zotero Connectors für den verwendeten Browser muss dieser via Plugin Manager (in den meisten Browser ein Icon, das wie ein Puzzle Teil aussieht) an die Menüzeile angepinnt werden. Durch das Anpinnen erscheint in der Menüzeile ein neues Symbol in Form eines grauen Buchstaben ‘Z’.</p>
+<p>Für das Beispiel soll der <a href="https://de.wikipedia.org/wiki/Zotero">Wikipedia Artikel zu Zotero</a> erfasst werden. Dazu muss die <a href="https://de.wikipedia.org/wiki/Zotero">Website</a> geöffnet werden. Wenn die Website offen ist, kann das graue ‘Z’ Symbol angeklickt werden. Beim erstmaligen Anklicken erscheint ein Hinweisfenster. Dieses kann angenommen werden. Anschliessend öffnet sich oben rechts im Browser ein Pop-Up Fenster, das einem Mitteilt, dass die Website nach Zotero gespeichert wird und dass ein Snapshot der Website angelegt wird. Ausserdem hat das Symbol für den Zotero Connector eine neue Darstellung erhalten. Neu sieht es wie ein aufgeschlagenes Buch aus. So zeigt der Zotero Connector an, als welche Kategorie der Eintrag angelegt wird. Im Fall der Wikipedia ist das ein Enzyklopädieartikel. Der Zotero Connector erkennt mehr oder weniger zuverlässig, um was für einen Eintrag es sich handelt. Der Eintrag muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und korrigiert werden.</p>
+<p>Ebenfalls über den Zotero Connector können bibliographische Angaben aus Bibliothekskatalogen übernommen werden. Als Beispiel dient hier ein Eintrag im swisscovery Katalog zu <a href="https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991171274013205501&amp;context=L&amp;vid=41SLSP_NETWORK:VU1_UNION&amp;lang=de&amp;search_scope=DN_and_CI&amp;adaptor=Local%20Search%20Engine&amp;isFrbr=true&amp;tab=41SLSP_NETWORK&amp;query=any,contains,le%20rouge%20et%20le%20noir&amp;sortby=date_d&amp;facet=frbrgroupid,include,9034117119244122733&amp;offset=0">Le rouge et le noir</a>. Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero Connector die Form eines Buches an.</p></li>
 </ul>
+<p>Wie Einträge in Zotero erfasst werden, wird auf der Website von Zotero ausführlich beschrieben. An dieser Stelle darf daher auf die dortigen <a href="https://www.zotero.org/support/adding_items_to_zotero">Erklärungen</a> verwiesen werden. Das gleiche gilt für die <a href="https://www.zotero.org/support/collections_and_tags">Organisation</a> der eigenen Bibliothek.</p>
+<p>Damit die Einträge aus Zotero in den Texten gelesen werden können, müssen sie mit dem Zitierschlüssel (citation key) adressiert werden. Die genaue Syntax dazu wird in <strong>?@sec-referenzen_einf</strong> erklärt. Zotero erstellt für jeden Eintrag einen Standardschlüssel. Dieser ist jedoch oft schwer zu merken. Es empfiehlt sich daher, den Zitierschlüssel selber festzulegen. Dazu ist im Feld “Extra” der Metadaten des Eintrags das “Key – Value” Paar “citation key: eigener_schlüssel” einzutragen. Gespeichert wird der so festgelegte Zitierschlüssel in dem das Feld “Extra” wieder verlassen wird. Der einfachste Zitierschlüssel ist wohl <code>autorYYYY</code> wobei <code>YYYY</code> für die vierstellige Jahreszahl steht.</p>
+</section>
+<section id="erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow">Erstellen einer Bibliographie Datei für den Markdown – Pandoc-Workflow</h2>
+<p>Die für das jeweilige Projekt erforderlichen Einträge in Zotero werden sinnvollerweise in einer Sammlung zusammengefasst. Diese Sammlung kann dann in eine <code>.bib</code> Datei exportiert werden. Dazu ist das Kontextmenü der Sammlung mit Rechtsklick zu öffnen. Anschliessend ist der Menüpunkt ‘Sammlung Exportieren’ auszuwählen. In der sich öffnenden Dialogbox ist Better BibLaTeX als Format auszuwählen. Sinnvollerweise werden die beiden Optionen ‘Halte aktuell’ und ‘Hintergrund-Export’ ausgewählt. Die erste Option sorgt dafür, dass Änderungen in Zotero-Einträgen automatisch in die <code>.bib</code> Datei geschrieben werden, die zweite verhindert, dass der Export einfriert.<br>
+Standardmässig erhält die so erstellte <code>.bib</code> Datei den Namen der Sammlung. Der Name kann während des Erstellens noch angepasst werden. Falls der Name nachträglich angepasst wird, ist nicht sichergestellt, dass die automatische Aktualisierung weiterhin funktioniert. Falls man dem Automatismus nicht vertraut, kann die <code>.bib</code> Datei nach jeder Änderung manuell neu aus Zotero exportiert werden.</p>
 
 
 </section>

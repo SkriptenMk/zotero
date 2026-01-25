@@ -43,6 +43,56 @@ verbunden werden.
 
 ## Einträge in Zotero erstellen und organisieren
 
+Es gibt verschiedene Methoden, wie Einträge in die Zotero Bibliothek
+aufgenommen werden können. Hier werden die gängigen Methoden Schritt für
+Schritt mit Beispielen erklärt.
+
+* Eintrag mit dem Zotero Connector erfassen.
+  
+  Damit Einträge mit dem Zotero Connector erfasst werden können, muss
+  neben dem Browser auch die Zotero Desktop Applikation geöffnet sein.
+  Gearbeitet wird bei geöffneter Zotero Desktop Applikation im Browser.
+
+  Nach der Installation des Zotero Connectors für den verwendeten
+  Browser muss dieser via Plugin Manager (in den meisten Browser ein
+  Icon, das wie ein Puzzle Teil aussieht) an die Menüzeile angepinnt
+  werden. Durch das Anpinnen erscheint in der Menüzeile ein neues Symbol
+  in Form eines grauen Buchstaben 'Z'.
+
+  Für das Beispiel soll der [Wikipedia Artikel zu
+  Zotero](https://de.wikipedia.org/wiki/Zotero) erfasst werden. Dazu
+  muss die [Website](https://de.wikipedia.org/wiki/Zotero) geöffnet
+  werden. Wenn die Website offen ist, kann das graue 'Z' Symbol
+  angeklickt werden. Beim erstmaligen Anklicken erscheint ein
+  Hinweisfenster. Dieses kann angenommen werden. Anschliessend öffnet
+  sich oben rechts im Browser ein Pop-Up Fenster, das einem Mitteilt,
+  dass die Website nach Zotero gespeichert wird und dass ein Snapshot
+  der Website angelegt wird. Ausserdem hat das Symbol für den Zotero
+  Connector eine neue Darstellung erhalten. Neu sieht es wie ein
+  aufgeschlagenes Buch aus. So zeigt der Zotero Connector an, als welche
+  Kategorie der Eintrag angelegt wird. Im Fall der Wikipedia ist das ein
+  Enzyklopädieartikel. Der Zotero Connector erkennt mehr oder weniger
+  zuverlässig, um was für einen Eintrag es sich handelt. Der Eintrag
+  muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und
+  korrigiert werden.
+
+  Ebenfalls über den Zotero Connector können bibliographische Angaben
+  aus Bibliothekskatalogen übernommen werden. Als Beispiel dient hier ein
+  Eintrag im swisscovery Katalog zu 
+  [Le rouge et le
+  noir](https://swisscovery.slsp.ch/discovery/fulldisplay?docid=alma991171274013205501&context=L&vid=41SLSP_NETWORK:VU1_UNION&lang=de&search_scope=DN_and_CI&adaptor=Local%20Search%20Engine&isFrbr=true&tab=41SLSP_NETWORK&query=any,contains,le%20rouge%20et%20le%20noir&sortby=date_d&facet=frbrgroupid,include,9034117119244122733&offset=0).
+  Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero Connector die
+  Form eines Buches an. Dieser Eintrag wird als Buch angelegt,
+  allerdings ohne Snapshot. Der Zotero Connector erkennt korrekt, dass
+  die Website von swisscovery ausschliesslich die Metadaten zum Buch zur
+  Verfügung stellt.
+
+  Andere Websites funktionieren analog zu diesen beiden Beispielen.
+
+* Eintrag mittels eines Identifikators erfassen.
+  
+  In der Zotero Desktop 
+
 Wie Einträge in Zotero erfasst werden, wird auf der Website von Zotero
 ausführlich beschrieben. An dieser Stelle darf daher auf die dortigen
 [Erklärungen](https://www.zotero.org/support/adding_items_to_zotero)

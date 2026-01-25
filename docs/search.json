@@ -4,20 +4,27 @@
     "href": "index.html",
     "title": "Zotero",
     "section": "",
-    "text": "Installation von Zotero\nErfassen von Referenzen\nReferenzen in einen Text einfügen\n(Zotero als Wissensdatenbank)"
+    "text": "Zotero bewirbt sich selber als persönlicher Forschungsassistent. Im gymnasialen Umfeld ist Zotero in erster Linie ein Hilfsmittel Zitate in Texten korrekt zu formatieren. Darüber hinaus kann Zotero auch als E-Reader mit Zusatzfunktionen zur Verwaltung von Notizen verwendet werden.\nDiese Anleitung zeigt Schritt für Schritt wie"
   },
   {
-    "objectID": "index.html#programm",
-    "href": "index.html#programm",
+    "objectID": "index.html#zotero-installieren-und-einrichten",
+    "href": "index.html#zotero-installieren-und-einrichten",
     "title": "Zotero",
-    "section": "",
-    "text": "Installation von Zotero\nErfassen von Referenzen\nReferenzen in einen Text einfügen\n(Zotero als Wissensdatenbank)"
+    "section": "Zotero installieren und einrichten",
+    "text": "Zotero installieren und einrichten\nUm die Funktionen von Zotero im vollen Umfang zu nutzen, ist es sinnvoll ein Zotero Account zu erstellen. Der Account kann auf der Website von Zotero erstellt werden. Wenn der Account nicht ausschliesslich privat genutzt werden soll, ist es sinnvoll die Schul- bzw. Geschäftsemail zu verwenden. Im Nutzerprofil können auch mehrere Adressen hinterlegt werden. Das ermöglicht es, die eigene Datenbank zu behalten, wenn man eine Institution verlässt.\nNachdem optional ein persönlicher Account erstellt worden ist, kann der Zotero Desktop Client heruntergeladen und installiert werden. Auf der gleichen Seite findet sich auch die Möglichkeit den Zotero Connector als Browser Plugin herunterzuladen. Dieses Plugin ist für die Arbeit mit Zotero nicht zwingend erforderlich, vereinfacht aber die Erfassung von Quellen ungemein.\nWenn Zotero installiert ist, kann es über den Menüpunkt Bearbeiten &gt; Einstellungen, Registerkarte Sync mit dem eigenen Zotero Account verbunden werden."
   },
   {
-    "objectID": "index.html#installation-von-zotero",
-    "href": "index.html#installation-von-zotero",
+    "objectID": "index.html#einträge-in-zotero-erstellen-und-organisieren",
+    "href": "index.html#einträge-in-zotero-erstellen-und-organisieren",
     "title": "Zotero",
-    "section": "Installation von Zotero",
-    "text": "Installation von Zotero\n\nAnlegen eines Zotero Accounts\nZotero Website www.zotero.org\nLog In (oben rechts) \\(\\rightarrow\\) Register for a free account\nKBW Adresse verwenden\nHerunterladen und Installieren der Desktop Applikation\nZurück zur\nDownload-Button \\(\\rightarrow\\) Zotero 8 for Windows\nInstallation des Zotero Connectors"
+    "section": "Einträge in Zotero erstellen und organisieren",
+    "text": "Einträge in Zotero erstellen und organisieren\nEs gibt verschiedene Methoden, wie Einträge in die Zotero Bibliothek aufgenommen werden können. Hier werden die gängigen Methoden Schritt für Schritt mit Beispielen erklärt.\n\nEintrag mit dem Zotero Connector erfassen.\nDamit Einträge mit dem Zotero Connector erfasst werden können, muss neben dem Browser auch die Zotero Desktop Applikation geöffnet sein. Gearbeitet wird bei geöffneter Zotero Desktop Applikation im Browser.\nNach der Installation des Zotero Connectors für den verwendeten Browser muss dieser via Plugin Manager (in den meisten Browser ein Icon, das wie ein Puzzle Teil aussieht) an die Menüzeile angepinnt werden. Durch das Anpinnen erscheint in der Menüzeile ein neues Symbol in Form eines grauen Buchstaben ‘Z’.\nFür das Beispiel soll der Wikipedia Artikel zu Zotero erfasst werden. Dazu muss die Website geöffnet werden. Wenn die Website offen ist, kann das graue ‘Z’ Symbol angeklickt werden. Beim erstmaligen Anklicken erscheint ein Hinweisfenster. Dieses kann angenommen werden. Anschliessend öffnet sich oben rechts im Browser ein Pop-Up Fenster, das einem Mitteilt, dass die Website nach Zotero gespeichert wird und dass ein Snapshot der Website angelegt wird. Ausserdem hat das Symbol für den Zotero Connector eine neue Darstellung erhalten. Neu sieht es wie ein aufgeschlagenes Buch aus. So zeigt der Zotero Connector an, als welche Kategorie der Eintrag angelegt wird. Im Fall der Wikipedia ist das ein Enzyklopädieartikel. Der Zotero Connector erkennt mehr oder weniger zuverlässig, um was für einen Eintrag es sich handelt. Der Eintrag muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und korrigiert werden.\nEbenfalls über den Zotero Connector können bibliographische Angaben aus Bibliothekskatalogen übernommen werden. Als Beispiel dient hier ein Eintrag im swisscovery Katalog zu Le rouge et le noir. Wenn dieser Eintrag aufgerufen wird, nimmt der Zotero Connector die Form eines Buches an.\n\nWie Einträge in Zotero erfasst werden, wird auf der Website von Zotero ausführlich beschrieben. An dieser Stelle darf daher auf die dortigen Erklärungen verwiesen werden. Das gleiche gilt für die Organisation der eigenen Bibliothek.\nDamit die Einträge aus Zotero in den Texten gelesen werden können, müssen sie mit dem Zitierschlüssel (citation key) adressiert werden. Die genaue Syntax dazu wird in ?@sec-referenzen_einf erklärt. Zotero erstellt für jeden Eintrag einen Standardschlüssel. Dieser ist jedoch oft schwer zu merken. Es empfiehlt sich daher, den Zitierschlüssel selber festzulegen. Dazu ist im Feld “Extra” der Metadaten des Eintrags das “Key – Value” Paar “citation key: eigener_schlüssel” einzutragen. Gespeichert wird der so festgelegte Zitierschlüssel in dem das Feld “Extra” wieder verlassen wird. Der einfachste Zitierschlüssel ist wohl autorYYYY wobei YYYY für die vierstellige Jahreszahl steht."
+  },
+  {
+    "objectID": "index.html#erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow",
+    "href": "index.html#erstellen-einer-bibliographie-datei-für-den-markdown-pandoc-workflow",
+    "title": "Zotero",
+    "section": "Erstellen einer Bibliographie Datei für den Markdown – Pandoc-Workflow",
+    "text": "Erstellen einer Bibliographie Datei für den Markdown – Pandoc-Workflow\nDie für das jeweilige Projekt erforderlichen Einträge in Zotero werden sinnvollerweise in einer Sammlung zusammengefasst. Diese Sammlung kann dann in eine .bib Datei exportiert werden. Dazu ist das Kontextmenü der Sammlung mit Rechtsklick zu öffnen. Anschliessend ist der Menüpunkt ‘Sammlung Exportieren’ auszuwählen. In der sich öffnenden Dialogbox ist Better BibLaTeX als Format auszuwählen. Sinnvollerweise werden die beiden Optionen ‘Halte aktuell’ und ‘Hintergrund-Export’ ausgewählt. Die erste Option sorgt dafür, dass Änderungen in Zotero-Einträgen automatisch in die .bib Datei geschrieben werden, die zweite verhindert, dass der Export einfriert.\nStandardmässig erhält die so erstellte .bib Datei den Namen der Sammlung. Der Name kann während des Erstellens noch angepasst werden. Falls der Name nachträglich angepasst wird, ist nicht sichergestellt, dass die automatische Aktualisierung weiterhin funktioniert. Falls man dem Automatismus nicht vertraut, kann die .bib Datei nach jeder Änderung manuell neu aus Zotero exportiert werden."
   }
 ]
