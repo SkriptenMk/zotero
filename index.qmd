@@ -91,12 +91,37 @@ Schritt mit Beispielen erklärt.
 
 * Eintrag mittels eines Identifikators erfassen.
   
-  In der Zotero Desktop 
+  In der Zotero Desktop Applikation können Einträge mittels der ISBN,
+  DOI und ähnlicher Identifikatoren erfasst werden. Dazu ist das
+  Zauberstab Icon über der Liste mit den Einträgen anzuklicken. Im sich
+  öffnenden Fenster kann die ISBN eingegeben werden. Zotero sucht mit
+  der ISBN online nach Einträgen mit der entsprechenden ISBN in
+  Bibliothekskatalogen.  
+  Als Beispiel dient hier die ISBN 9783110466201, Ovid, Niklas Holzberg (Hrsg.),
+  Metamorphosen lateinisch-deutsch. Sammlung Tusculum. De Gruyter, 2017.
 
-Wie Einträge in Zotero erfasst werden, wird auf der Website von Zotero
-ausführlich beschrieben. An dieser Stelle darf daher auf die dortigen
-[Erklärungen](https://www.zotero.org/support/adding_items_to_zotero)
-verwiesen werden. Das gleiche gilt für die
+  Auch die via ISBN erfassten Einträge müssen unbedingt auf
+  Vollständigkeit und Korrektheit kontrolliert werden.
+
+* Manueller Eintrag.
+  
+  Es besteht auch die Möglichkeit, Einträge komplett manuell zu
+  erfassen. Dazu ist das Icon links neben dem Zauberstab (leeres Blatt
+  mit kleinem Plus Symbol) zu verwenden. Wenn dieses Icon angeklickt
+  wird, öffnet sich ein Auswahlmenü mit allen Eintragsarten, welche von
+  Zotero zur Verfügung gestellt werden. Sobald eine Wahl getroffen
+  worden ist, wird ein leerer Eintrag in der gewählten Kategorie
+  angelegt. Die entsprechenden Metadaten können nun von Hand eingegeben
+  werden. 
+
+Eine ausführliche Anleitung, wie Einträge in Zotero erfasst werden, wird
+auf der [Website von
+Zotero](https://www.zotero.org/support/adding_items_to_zotero) zur
+Verfügung gestellt. 
+
+
+
+ Das gleiche gilt für die
 [Organisation](https://www.zotero.org/support/collections_and_tags) der
 eigenen Bibliothek. 
 
