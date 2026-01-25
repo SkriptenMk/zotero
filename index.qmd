@@ -252,7 +252,38 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
   Datenbank unterbrochen werden. Aktualisierungen von Einträgen in
   Zotero werden dann nicht mehr in den Text übernommen.
 
+## Zotero als Wissensdatenbank
 
+Zotero kann auch als E-Reader verwendet werden. Damit löst Zotero das
+Versprechen ein, ein persönlicher Forschungsassistent zu sein. Welche
+Unterstützung Zotero damit bietet, wird hier erläutert.
+
+Beim erfassen von Websites mit Hilfe des Zotero Connectors wurden, wie
+im Beispiel gezeigt, nicht nur die Metadaten erfasst, sondern auch ein
+Snap Shot der Website gespeichert. Der Inhalt der Referenz kann nicht
+nur für Websites, sondern grundsätzlich für alle Eintragsarten
+gespeichert werden.
+
+So kann ein Eintrag zu einem Buch um ein PDF des Buches ergänzt werden.
+Dieses PDF kann dann im PDF Reader von Zotero angezeigt werden. Der
+Zotero PDF Reader stellt dann Werkzeuge zur Verfügung, um Anstreichungen
+im Text vorzunehmen und diese mit Kommentaren zu versehen.
+
+![Der Zotero PDF Reader mit Anstreichungen.](zotero_pdf_reader.png)
+
+Die Anstreichungen und Kommentare werden dann als separate Notizen
+gespeichert. 
+Ausserdem können auch eigenständige Notizen angelegt werden. Dazu kann
+am Rechten Rand der Zotero Desktop Applikation die Metadaten des
+Eintrags angezeigt werden.
+
+![Die Auswahl der Metadaten zum Eintrag. Hier in der eingefalteten
+Darstellung.](metadata.png) 
+
+Mit dem Plus bei Notizen kann eine neue Notiz angelegt werden.
+
+Die so erstellten Notizen können dann mit der Funktion
+'Insert Note' in den Text übernommen werden.
 
 
 
