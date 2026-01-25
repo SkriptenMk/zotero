@@ -21,26 +21,26 @@ Diese Anleitung zeigt für Zotero 8 Schritt für Schritt, wie
 
 ## Zotero installieren und einrichten
 
-Um die Funktionen von Zotero im vollen Umfang zu nutzen, ist es sinnvoll
-ein Zotero-Account zu erstellen. Der Account kann auf der Website von
+Um die Funktionen von Zotero im vollen Umfang zu nutzen, ist es sinnvoll,
+einen Zotero-Account zu erstellen. Der Account kann auf der Website von
 [Zotero](https://www.zotero.org/user/register) erstellt werden. Wenn der
 Account nicht ausschliesslich privat genutzt werden soll, ist es
-sinnvoll die Schul- bzw.\ Geschäftsemail zu verwenden. Im Nutzerprofil
+sinnvoll, die Schul- bzw.\ Geschäftsemail zu verwenden. Im Nutzerprofil
 können auch mehrere Adressen hinterlegt werden. Das ermöglicht es, die
 eigene Datenbank zu behalten, wenn man eine Institution verlässt.
 
 Nachdem optional ein persönlicher Account erstellt worden ist, kann der
 [Zotero Desktop Client](https://www.zotero.org/download/)
 heruntergeladen und installiert werden. Auf der gleichen Seite findet
-sich auch die Möglichkeit den Zotero-Connector als Browser Plugin
+sich auch die Möglichkeit, den Zotero-Connector als Browser Plugin
 herunterzuladen. Dieses Plugin ist für die Arbeit mit Zotero nicht
 zwingend erforderlich, vereinfacht aber die Erfassung von Quellen
 ungemein.
 
-Wenn Zotero installiert ist, kann auf Windows Rechnern über den Menüpunkt Bearbeiten >
-Einstellungen, Registerkarte Sync die Synchronisation mit dem eigenen Zotero-Account
+Wenn Zotero installiert ist, kann auf Windows Rechnern über den Menüpunkt 'Bearbeiten >
+Einstellungen', Registerkarte Sync die Synchronisation mit dem eigenen Zotero-Account
 eingerichtet werden. Auf Mac Rechnern finden sich die Einstellungen
-unter dem Menü Zotero > Einstellungen.
+unter dem Menü 'Zotero > Einstellungen'.
 
 ## Einträge in Zotero erstellen und organisieren
 
@@ -58,7 +58,7 @@ Schritt mit Beispielen erklärt.
   Browser muss dieser via Plugin Manager (in den meisten Browser ein
   Icon, das wie ein Puzzle Teil aussieht ![](image.png){height="1em"}) an die Menüzeile angepinnt
   werden. Durch das Anpinnen erscheint in der Menüzeile ein neues Symbol
-  in Form eines grauen Buchstaben 'Z'.
+  in Form eines grauen Buchstabens 'Z'.
 
   Für das Beispiel soll der [Wikipedia Artikel zu
   Zotero](https://de.wikipedia.org/wiki/Zotero) erfasst werden. Dazu
@@ -71,9 +71,9 @@ Schritt mit Beispielen erklärt.
   der Website angelegt wird. Ausserdem hat das Symbol für den Zotero
   Connector eine neue Darstellung erhalten. Neu sieht es wie ein
   aufgeschlagenes Buch aus. So zeigt der Zotero-Connector an, als welche
-  Kategorie der Eintrag angelegt wird. Im Fall der Wikipedia ist das ein
+  Kategorie der Eintrag angelegt wird. Im Fall Wikipedia ist das ein
   Enzyklopädieartikel. Der Zotero-Connector erkennt mehr oder weniger
-  zuverlässig, um was für einen Eintrag es sich handelt. Der Eintrag
+  zuverlässig, um was für eine Kategorie von Eintrag es sich handelt. Der Eintrag
   muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und
   korrigiert werden.
 
@@ -141,7 +141,7 @@ Untersammlung' ausgewählt werden.
 
 Um einen Eintrag mit einem Tag zu versehen, muss dieser in der
 Bibliothek ausgewählt werden. Ganz am rechten Rand erscheint dann eine
-Auswahl mit mehreren farbigen Icons. Um ein Tag zu vergeben, ist das
+Auswahl mit mehreren farbigen Icons. Um einen Tag zu vergeben, ist das
 Icon, welches wie eine Gepäcketikette aussieht, auszuwählen.
 
 Eine ausführliche Beschreibung für die 
@@ -161,7 +161,7 @@ dieser Menüpunkt in Word fehlt, kann das Microsoft Word Add-In manuell
 installiert werden. Dazu sind die Zotero Einstellungen zu öffnen
 (Bearbeiten -> Einstellungen). Im Einstellungsfenster ist der Tab
 'Zitieren' auszuwählen. Ganz unten in diesem Tab findet sich ein Button
-'Microsoft Word Add-In installieren'. Durch anklicken dieses Buttons
+'Microsoft Word Add-In installieren'. Durch Anklicken dieses Buttons
 wird das fehlende Add-In installiert. Allenfalls muss Word neu gestartet
 werden. 
 
@@ -277,8 +277,8 @@ im Text vorzunehmen und diese mit Kommentaren zu versehen.
 
 Die Anstreichungen und Kommentare werden dann als separate Notizen
 gespeichert. 
-Ausserdem können auch eigenständige Notizen angelegt werden. Dazu kann
-am Rechten Rand der Zotero-Desktop-Applikation die Metadaten des
+Ausserdem können auch eigenständige Notizen angelegt werden. Dazu können
+am rechten Rand der Zotero-Desktop-Applikation die Metadaten des
 Eintrags angezeigt werden.
 
 ![Die Auswahl der Metadaten zum Eintrag. Hier in der eingefalteten
