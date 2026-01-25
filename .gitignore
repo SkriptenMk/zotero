@@ -1,0 +1,17 @@
+# Quarto temporäre Verzeichnisse
+/.quarto/
+/_site/
+
+# Jupyter & Knitr Cache (Falls du Code ausführst)
+/*_cache/
+/*_files/
+/site_libs/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# --- GitHub Pages Ausnahmeregel ---
+# Wir ignorieren generell alles, was beim Rendern entstehen könnte...
+# ...stellen aber sicher, dass der docs/ Ordner für GitHub Pages IMMER hochgeladen wird.
+!/docs/
