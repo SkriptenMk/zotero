@@ -14,3 +14,7 @@ format:
     pdf-engine: lualatex
     toc: false
     output-file: zotero_anleitung.pdf
+    author: false
+    geometry:
+      - left=3cm
+      - right=3cm
