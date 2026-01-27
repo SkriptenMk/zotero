@@ -14,7 +14,8 @@ format:
     pdf-engine: lualatex
     toc: false
     output-file: zotero_anleitung.pdf
-    author: ""
+    template-partials:
+      - title.tex
     geometry:
       - left=3cm
       - right=3cm

@@ -1,5 +1,8 @@
-$if(title)$
-\title{$title$$if(subtitle)$: $subtitle$$endif$}
-$endif$
+\title{
+  $title$
+  $if(subtitle)$
+  \\[0.5em] \large $subtitle$
+  $endif$
+}
 \author{} % Dies lässt den Autor leer
 \date{$date$}
