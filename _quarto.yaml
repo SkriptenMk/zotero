@@ -17,5 +17,5 @@ format:
     template-partials:
       - title.tex
     geometry:
-      - left=3cm
-      - right=3cm
+      - left=4cm
+      - right=4cm
