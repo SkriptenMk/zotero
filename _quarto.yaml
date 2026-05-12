@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: docs  # GitHub Pages liest standardmäßig aus diesem Ordner
+  output-dir: docs
 
-lang: de-CH
-number-sections:  true
+lang: de-CH  # Behält de-CH für HTML und PDF bei 
+number-sections: true
 
 format:
   html:
@@ -12,6 +12,7 @@ format:
     code-fold: false
   pdf:
     pdf-engine: lualatex
+    classoption: ngerman  # <-- Diese Zeile hinzufügen
     toc: false
     output-file: zotero_anleitung.pdf
     template-partials:
