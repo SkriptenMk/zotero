@@ -2,17 +2,18 @@
 title: "Zotero"
 subtitle: "Einführung für Lehrpersonen"
 author: "Jacques Mock Schindler"
-date: 2026-01-28
+date: last-modified
 date-format: "DD.MM.YYYY"
 ---
 
-Zotero bewirbt sich selber als persönlicher Forschungsassistent. Im
+[Zotero](https://www.zotero.org/) bewirbt sich selber als persönlicher
+Forschungsassistent. Im 
 gymnasialen Umfeld ist Zotero in erster Linie ein Hilfsmittel, Zitate in
 Texten korrekt zu formatieren. Darüber hinaus kann Zotero auch als
 E-Reader mit Zusatzfunktionen zur Verwaltung von Notizen verwendet
 werden. 
 
-Diese Anleitung zeigt für Zotero 8 Schritt für Schritt, wie
+Diese Anleitung zeigt für Zotero 9 Schritt für Schritt, wie
 
 * Zotero installiert wird;
 * Einträge in die Zotero Bibliothek gemacht werden können;
@@ -52,7 +53,8 @@ Schritt mit Beispielen erklärt.
   
   Damit Einträge mit dem Zotero-Connector erfasst werden können, muss
   neben dem Browser auch die Zotero-Desktop-Applikation geöffnet sein.
-  Gearbeitet wird bei geöffneter Zotero-Desktop-Applikation im Browser.
+  Gearbeitet wird bei (im Hintergrund) geöffneter
+  Zotero-Desktop-Applikation im Browser. 
 
   Nach der Installation des Zotero-Connectors für den verwendeten
   Browser muss dieser via Plugin Manager (in den meisten Browser ein
@@ -74,7 +76,7 @@ Schritt mit Beispielen erklärt.
   Kategorie der Eintrag angelegt wird. Im Fall Wikipedia ist das ein
   Enzyklopädieartikel. Der Zotero-Connector erkennt mehr oder weniger
   zuverlässig, um was für eine Kategorie von Eintrag es sich handelt. Der Eintrag
-  muss aber in jedem Fall kontrolliert und gegebenenfalls ergänzt und
+  muss aber in jedem Fall kontrolliert und gegebenenfalls manuell ergänzt und
   korrigiert werden.
 
   Ebenfalls über den Zotero-Connector können bibliographische Angaben
@@ -104,6 +106,33 @@ Schritt mit Beispielen erklärt.
   Auch die via ISBN erfassten Einträge müssen unbedingt auf
   Vollständigkeit und Korrektheit kontrolliert werden.
 
+* Hinzufügen von Büchern im Volltext
+  
+  Gewisse Verlage stellen Bücher auch im Volltext zum Download zur
+  Verfügung. Solche Bücher können entweder direkt über die Website via
+  Zotero Connector hinzugefügt werden oder heruntergeladen und
+  anschliessend mit dem Menü 'Anhang hinzufügen'
+  (![](anhang_hinzufuegen.png){height="1em"}) in Zotero übernommen
+  werden. Abhängig von den in der Datei zur Verfügung stehenden
+  Metadaten, wird der übergeordnete Eintrag automatisch erstellt oder
+  muss manuell erstellt werden. Falls der Eintrag nicht genügend
+  Metadaten zur Verfügung stellt, muss der übergeordnete Eintrag mit
+  Rechtsklick auf das eingefügte PDF manuell erstellt werden. Der
+  entsprechende Dialog sieht folgendermassen aus:
+
+  ![Kontextmenü für PDF in Zotero 9](pdf_kontextdialog.png)
+
+  In diesem Dialog ist der Eintrag 'Übergeordneter Eintrag erstellen...'
+  auszuwählen. Im sich öffnenden Dialog ist anschliessend 'Manueller
+  Eintrag' auszuwählen. Nach diesem Arbeitsschritt können alle
+  erforderlichen Angaben manuell erfasst werden.
+
+  Wie das genau funktioniert, kann am Beispiel Chan, Tsz Nam, und
+  Dingming Wu. Mastering the Academic Writing Mindset: A Guide to
+  Crafting Computer Science Papers. Springer Nature Singapore, 2026.
+  [https://doi.org/10.1007/978-981-95-4850-7](https://doi.org/10.1007/978-981-95-4850-7)
+  ausprobiert werden. 
+
 * Manueller Eintrag.
   
   Es besteht auch die Möglichkeit, Einträge komplett manuell zu
@@ -120,8 +149,8 @@ auf der [Website von
 Zotero](https://www.zotero.org/support/adding_items_to_zotero) zur
 Verfügung gestellt. 
 
-Zotero stellt zwei Möglichkeiten zur Verfügung, die Bibliothek zu
-organisieren. Die Einträge können in Sammlungen organisiert werden oder
+Für die Organisation der Bibliothek stellt Zotero zwei Möglichkeiten zur
+Verfügung. Die Einträge können in Sammlungen organisiert werden oder
 mit Tags versehen werden. Beide Möglichkeiten können parallel verwendet
 werden.
 
@@ -208,7 +237,8 @@ Die einzelnen Funktionen werden hier der Reihe nach erklärt.
    
    ![Dialogbox zur Präzisierung einer Referenz. Anstelle von
    Seitenzahlen können auch Abschnitte, Randnoten und ähnliches
-   ausgewählt werden.](praezisierung.png)
+   ausgewählt werden. Falls gewünscht, kann auch das Präfix 'Vgl.'
+   vorangestellt werden.](praezisierung.png)
 
    Die Details können durch das Drücken der Entertaste bestätigt werden.
    Dadurch wird der gewählte Eintrag aus Zotero als Referenz in der
@@ -290,5 +320,7 @@ Die so erstellten Notizen können dann mit der Funktion
 'Insert Note' in den Text übernommen werden.
 
 
+Eine ausführliche Anleitung zu allen Funktionen findet sich in der
+[Zotero Dokumentation](https://www.zotero.org/support/). 
 
   
