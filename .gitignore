@@ -17,3 +17,4 @@ Thumbs.db
 # Wir ignorieren generell alles, was beim Rendern entstehen könnte...
 # ...stellen aber sicher, dass der docs/ Ordner für GitHub Pages IMMER hochgeladen wird.
 !/docs/
+**/*.quarto_ipynb
