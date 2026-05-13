@@ -1,6 +1,6 @@
 ---
 title: "Zotero"
-subtitle: "Einführung für Lehrpersonen"
+subtitle: "Einführung für Maturandinnen und Maturanden im Schuljahr 26/27"
 author: "Jacques Mock Schindler"
 date: last-modified
 date-format: "DD.MM.YYYY"
