@@ -323,4 +323,17 @@ Die so erstellten Notizen können dann mit der Funktion
 Eine ausführliche Anleitung zu allen Funktionen findet sich in der
 [Zotero Dokumentation](https://www.zotero.org/support/). 
 
-  
+## Weiterführende Links
+
+Die ZHAW unterhält auf ihrer Website mehrere Video Tutorials und Blog-Beiträge zu Zotero:
+
+* [Video Tutorials](https://zhaw.mediaspace.cast.switch.ch/channel/Literaturverwaltung%2Bmit%2BZotero/7898)
+* [Erweiterungen](https://blog.zhaw.ch/hochschulbibliothek/2021/09/21/reicht-zotero-nicht/)
+* [Reader](https://blog.zhaw.ch/hochschulbibliothek/2022/07/15/zotero-mehr-als-nur-literaturverwaltung/)
+
+Das Deutsche Seminar der UZH hat 2024 ein Deomstrationsvideo für Zotero erstellt:
+
+* [Demo-Video DS UZH](https://www.youtube.com/watch?v=Vc1kyXnUQsg)
+
+
+
