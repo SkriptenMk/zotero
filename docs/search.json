@@ -33,5 +33,12 @@
     "title": "Zotero",
     "section": "4 Zotero als Wissensdatenbank",
     "text": "4 Zotero als Wissensdatenbank\nZotero kann auch als E-Reader verwendet werden. Damit löst Zotero das Versprechen ein, ein persönlicher Forschungsassistent zu sein. Welche Unterstützung Zotero damit bietet, wird hier erläutert.\nBeim Erfassen von Websites mit Hilfe des Zotero-Connectors wurden, wie im Beispiel gezeigt, nicht nur die Metadaten erfasst, sondern auch ein Snapshot der Website gespeichert. Der Inhalt der Referenz kann nicht nur für Websites, sondern grundsätzlich für alle Eintragsarten gespeichert werden.\nSo kann ein Eintrag zu einem Buch um ein PDF des Buches ergänzt werden. Dieses PDF kann dann im PDF Reader von Zotero angezeigt werden. Der Zotero PDF Reader stellt dann Werkzeuge zur Verfügung, um Anstreichungen im Text vorzunehmen und diese mit Kommentaren zu versehen.\n\n\n\nDer Zotero PDF Reader mit Anstreichungen.\n\n\nDie Anstreichungen und Kommentare werden dann als separate Notizen gespeichert. Ausserdem können auch eigenständige Notizen angelegt werden. Dazu können am rechten Rand der Zotero-Desktop-Applikation die Metadaten des Eintrags angezeigt werden.\n\n\n\nDie Auswahl der Metadaten zum Eintrag. Hier in der eingefalteten Darstellung.\n\n\nMit dem Plus bei Notizen kann eine neue Notiz angelegt werden.\nDie so erstellten Notizen können dann mit der Funktion ‘Insert Note’ in den Text übernommen werden.\nEine ausführliche Anleitung zu allen Funktionen findet sich in der Zotero Dokumentation."
+  },
+  {
+    "objectID": "index.html#weiterführende-links",
+    "href": "index.html#weiterführende-links",
+    "title": "Zotero",
+    "section": "5 Weiterführende Links",
+    "text": "5 Weiterführende Links\nDie ZHAW unterhält auf ihrer Website mehrere Video Tutorials und Blog-Beiträge zu Zotero:\n\nVideo Tutorials\nErweiterungen\nReader\n\nDas Deutsche Seminar der UZH hat 2024 ein Deomstrationsvideo für Zotero erstellt:\n\nDemo-Video DS UZH"
   }
 ]
